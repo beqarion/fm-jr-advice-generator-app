@@ -2,7 +2,7 @@ import get from "./getElement.js"
 const adviceContainer = get("#advice-container")
 
 export const displayAdvice = (data) => {
-  console.log(data);
+  console.log(data)
   const { id, advice } = data
   adviceContainer.innerHTML = `
   <!-- article -->
@@ -44,7 +44,7 @@ export const displayAdvice = (data) => {
       type="button"
     >
       <img
-        src="./assets/images/icon-dice.svg"
+        src="../../assets/images/icon-dice.svg"
         alt=""
       />
     </button>
