@@ -51,7 +51,7 @@
       type="button"
     >
       <img
-        src="../../assets/images/icon-dice.svg"
+        src="../assets/images/icon-dice.svg"
         alt=""
       />
     </button>
