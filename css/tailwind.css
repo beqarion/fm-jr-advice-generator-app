@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+===========
+Fonts
+===========
+*/
+@font-face {
+  font-family: "Manrope";
+  src: url("../assets/fonts/Manrope-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@layer utilities {
+  @media screen and (min-width: 640px) {
+    #random-btn:hover {
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 0 40px #53ffaa;
+    }
+  }
+}
