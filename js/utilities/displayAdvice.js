@@ -46,6 +46,7 @@ export const displayAdvice = (data) => {
       id="random-btn"
       class="bg-primary-neonGreen w-16 h-16 rounded-full grid place-content-center mx-auto absolute -bottom-8 left-1/2 -translate-x-1/2 sm:cursor-pointer"
       type="button"
+      aria-label="Generate Random Advice"
     >
       <img
         src=${iconDice}
