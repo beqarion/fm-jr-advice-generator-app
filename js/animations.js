@@ -1,3 +1,4 @@
+import anime from "animejs/lib/anime.es.js"
 export const startAnimations = () => {
   anime({
     targets: "#article",

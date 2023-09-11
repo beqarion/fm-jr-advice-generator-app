@@ -1,8 +1,12 @@
 import get from "./getElement.js"
+
+import patternDividerDesktop from "../../assets/images/pattern-divider-desktop.svg"
+import patternDividerMobile from "../../assets/images/pattern-divider-mobile.svg"
+import iconDice from "../../assets/images/icon-dice.svg"
+
 const adviceContainer = get("#advice-container")
 
 export const displayAdvice = (data) => {
-  console.log(data)
   const { id, advice } = data
   adviceContainer.innerHTML = `
   <!-- article -->
@@ -27,12 +31,12 @@ export const displayAdvice = (data) => {
     <!-- divider -->
     <picture>
       <source
-        srcset="./assets/images/pattern-divider-desktop.svg"
+        srcset=${patternDividerDesktop}
         media="(min-width: 640px)"
       />
 
       <img
-        src="./assets/images/pattern-divider-mobile.svg"
+        src=${patternDividerMobile}
         alt="Responsive Image"
         class="inline-block mt-6 w-full sm:mt-10"
       />
@@ -44,7 +48,7 @@ export const displayAdvice = (data) => {
       type="button"
     >
       <img
-        src="/assets/images/icon-dice.svg"
+        src=${iconDice}
         alt=""
       />
     </button>
