@@ -36,7 +36,7 @@ Users should be able to:
 
 - [Solution](https://github.com/beqarion/fm-jr-advice-generator-app)
 
-- [Live Site](https://beqarion.github.io/3-column-preview-card-component/)
+- [Live Site](https://advice-generator-app-beqarion.netlify.app/)
 
 ## My process
 
@@ -48,11 +48,11 @@ Users should be able to:
 
 - CSS custom properties
 
-- Flexbox
-
-- CSS Grid
-
 - Mobile-first workflow
+
+- AnimeJS animations
+
+- TailwindCSS
 
 ## Author
 
