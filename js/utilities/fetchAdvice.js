@@ -12,8 +12,9 @@ export const fetchAdvice = async (url) => {
           Loading...
         </div>`
   try {
-    const response = await fetch(url)
+    const response = await fetch(url, { cache: "no-cache" })
     const data = await response.json()
+    console.log(data)
     const { slip: advice } = data
     return advice
   } catch (error) {

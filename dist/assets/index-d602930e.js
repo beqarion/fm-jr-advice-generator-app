@@ -6,7 +6,7 @@
           ></div>
           <br />
           Loading...
-        </div>`;try{const n=await(await fetch(e)).json(),{slip:a}=n;return a}catch{me.innerHTML=`
+        </div>`;try{const n=await(await fetch(e,{cache:"no-cache"})).json();console.log(n);const{slip:a}=n;return a}catch{me.innerHTML=`
     <!-- error -->
         <p class="text-center">
           There was problem fetching data, please try again
